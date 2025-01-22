@@ -6,6 +6,7 @@ The Bubble Sort algorithm is a *sorting algorithm* that sort an array by compari
 
 ## Pseudo Code
 
+```
 for i = n-1 down to 0 :
     swapped = false
     for j = 1 to i :
@@ -15,15 +16,16 @@ for i = n-1 down to 0 :
     if not swapped :
         break
 return array
+```
 
 ## Complexity
 
 ### Time Complexity
 
-Best case : $Θ(n)$
-Worst case : $Θ(n^2)$
-In all cases : $O(n^2)$
+- Best case : $Θ(n)$
+- Worst case : $Θ(n^2)$
+- In all cases : $O(n^2)$
 
 ### Space Complexity
 
-In all cases : $Θ(1)$
+- In all cases : $Θ(1)$
